@@ -12,15 +12,14 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  }
-  .visually-hidden {
+}
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-  
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -38,11 +37,10 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color:var(--primary-text-color)
+  color: var(--primary-text-color);
 }
 .logo-header .sign {
   color: var(--accent-color);
-}
 }
 .site-nav,
 .contacts-nav {
@@ -131,7 +129,8 @@ a {
   background: #f5f4fa;
   cursor: pointer;
 }
-.filter:focus, .filter:hover {
+.filter:focus,
+.filter:hover {
   background: var(--accent-color);
   color: var(--white-text-color);
 }
