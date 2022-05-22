@@ -5,6 +5,7 @@
   --primary-background-color: #ffffff;
   --text-color: #757575;
   --white-text-color: #ffffff;
+  --filter-background-color: #f5f4fa;
 }
 body {
   background: var(--primary-background-color);
@@ -25,12 +26,12 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-ul {
+.list {
   list-style: none;
 }
-a {
+.link {
   text-decoration: none;
-  color: var(--primary-text-color);
+  color: inherit;
 }
 /* Header for Studio and Portfolio*/
 .logo-header {
@@ -134,7 +135,7 @@ a {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  background: #f5f4fa;
+  background: var(--filter-background-color);
   cursor: pointer;
 }
 .filter:focus,
